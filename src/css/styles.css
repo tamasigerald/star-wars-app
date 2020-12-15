@@ -1,0 +1,134 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+article {
+    width: 100%;
+    max-width: 1200px;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'STARWARS', sans-serif;
+    font-size: 2.5rem;
+    background-color: #FFE81F;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+}
+
+.nav-bar {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    width: 100%;
+}
+
+ul a {
+    color: #FFE81F;
+    margin: 2px 0;
+
+}
+
+a {
+    font-family: 'STARWARS', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    padding: 12px;
+    margin: 0 10px;
+
+}
+
+a:hover {
+    background-color: #FFE81F;
+    border-radius: 5px;
+    color: black;
+}
+
+img {
+    max-width: 80%;
+}
+
+button {
+    font-family: 'STARWARS', sans-serif;
+    padding: 10px;
+    background-color: #FFE81F;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+li {
+    font-family: 'STARWARS', sans-serif;
+    list-style-type: none;
+    
+}
+
+.card-conatiner ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+    html {
+        font-size: 14px;
+    }
+
+    h1 {
+        width: 90%;
+    }
+
+    article {
+        margin-top: 5rem;
+    }
+}
